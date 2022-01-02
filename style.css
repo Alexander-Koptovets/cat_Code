@@ -1,0 +1,184 @@
+body {
+    font-family: 'Lobster', cursive;
+}
+
+#name-block {
+    display: none;
+    color: #b80b0b;
+    font-size: 5em;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+
+.block {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    color: #b80b0b;
+    font-size: 5em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.ok, .no {
+    width: 70%;
+    font-size: 2em;
+    border-radius: 5%;
+    margin-top: 10px;
+    height: 5em;
+}
+
+.ok {
+    background-color: #25b505;
+}
+
+.no {
+    background-color: #cf0202;
+}
+
+#hello {
+    animation-name: hello;
+    animation-duration: 2s;
+}
+
+@keyframes hello {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.image {
+    width: 3em;
+}
+
+#cat {
+    animation-name: cat;
+    animation-duration: 2s;
+}
+
+@keyframes cat {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#question {
+    animation: question 3s;
+}
+
+@keyframes question {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#why {
+    animation: why 3s;
+}
+
+@keyframes why {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#sadness, #worry, #worry2 {
+    font-size: 4em;
+    animation: feel 2s;
+}
+
+@keyframes feel {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#what {
+    font-size: 5em;
+    animation: what 3s;
+}
+
+@keyframes what {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#if, #honestly, #tell, #tell2, #answer-ok, #answer-no {
+    font-size: 5em;
+    animation: if 4s;
+}
+
+@keyframes if {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#answer-no {
+    font-size: 3em;
+}
