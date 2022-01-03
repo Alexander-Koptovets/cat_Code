@@ -7,12 +7,12 @@ function name() {
     firstEl.innerHTML = 'Наст';
     helloBlock.append(firstEl);
     let timerId = setInterval(function() {
-        if (count < 8) {
+        if (count < 10) {
             const secondEl = document.createElement('span');
             secondEl.innerHTML = 'ю';
             helloBlock.append(secondEl);
             count++;
-        } else if (count === 8) {
+        } else if (count === 10) {
             const thirdEl = document.createElement('span');
             thirdEl.innerHTML = 'х';
             helloBlock.append(thirdEl);
@@ -24,8 +24,6 @@ function name() {
         helloBlock.style.display = 'none';
     }, 3000);
 }
-
-name();
 
 function animation() {
     name();
